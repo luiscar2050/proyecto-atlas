@@ -7,7 +7,6 @@
     body{
         width: 100%;
         height: 100vh;
-        overflow: hidden;
     }
     
     header{
@@ -94,3 +93,128 @@
         background-color: #00FEAC;    
     }
     
+main{
+    margin-top: 2rem;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > .titulo{
+    margin-top: 2rem;
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.contenedorPadre{
+width: 100%;
+height: 80%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.seccionUno{
+width: 23%;
+height: 65%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.seccionUno > img{
+width: 50%;
+height: 55%;
+justify-content: center;
+align-items: center;
+}
+    
+.seccionUno > h1{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+display: flex;
+justify-content: center;
+}    
+
+.seccionUno > p{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+    justify-content: center;
+}    
+
+
+.seccionDos{
+    width: 23%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .seccionDos > img{
+    width: 50%;
+    height: 55%;
+    justify-content: center;
+    align-items: center;
+    }
+        
+    .seccionDos > h1{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-family:"Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    }    
+    
+    .seccionDos > p{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-family:"Roboto", sans-serif;
+        justify-content: center;
+    }    
+
+    .seccionTres{
+        width: 23%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .seccionTres > img{
+        width: 50%;
+        height: 55%;
+        justify-content: center;
+        align-items: center;
+        }
+            
+        .seccionTres > h1{
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            font-family:"Roboto", sans-serif;
+        display: flex;
+        justify-content: center;
+        }    
+        
+        .seccionTres > p{
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            font-family:"Roboto", sans-serif;
+            justify-content: center;
+        }    
+        

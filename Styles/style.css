@@ -561,3 +561,157 @@ justify-content: center;
         flex-direction: column;
     }
     
+    footer {
+        display:flex;
+        align-items: center;
+        width: 100%;
+        height:100%;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    
+    footer .contenedor-footer{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-image: url(../Assets/images/contact-bk.jpg);
+        background-size: cover;
+        height: 90%;
+        background-repeat: no-repeat;
+    }
+    
+    .contacto h2{
+        width: 80%;
+        height: 30%;
+        color: white;
+        font-size: 50px;
+        font-family:"Roboto", sans-serif;
+    }
+    
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+        height: 50%;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+    .contacto p{
+      color: white;
+      height: 15%;
+      flex-wrap: wrap;
+      font-weight: 100;
+      font-size: 17px;
+      font-family:"Roboto", sans-serif;
+    }
+
+    footer  .contenedor-formulario {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 50%;
+    }
+    
+    .contenedor-formulario {
+        display: flex;
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    
+    .contenedor-label {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        width:90%;
+    }
+    
+    .arreglos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:45%;
+    }
+    
+    .primer-label{
+        height: 40px;
+        font-size: 20px;
+        color: #00FEAC; 
+        font-family:"Roboto", sans-serif;
+    }
+    
+    #nombre{
+        height: 40px;
+    border-color: #00FEAC;
+    background: transparent;
+    }
+    
+    #gmail{
+        height: 40px;
+    border-color: #00FEAC;
+    background: transparent;
+    }
+    
+    .label-textarea{
+        font-size: 20px;
+        color: #00FEAC; 
+        font-family:"Roboto", sans-serif;
+    }
+    
+    #textarea-contenedor{
+        width: 90%;
+        height: 9rem;
+        background: transparent;
+    border-color: #00FEAC;
+    }
+    
+    .boton{
+    width: 90%;
+    height: 9rem;
+    }
+    
+    .boton > button{
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    color: black;
+    font-family:"Roboto", sans-serif;
+    background-color: #00FEAC;
+    border-color: #00FEAC;
+    border-radius: 25px;
+    }
+
+    .redes{
+        display: flex;
+        width: 100%;
+        height: 15%;
+        justify-content: center;
+        align-items: center;
+        background-color:  #151d35;
+        }
+        
+        .redes > p{
+        width: 60%;
+        height: 40%;
+        font-size: 20px;
+        color: white;
+        font-family:"Roboto", sans-serif;
+        }
+        
+        .redes-sociales{
+        width: 15%;
+        height: 40%;
+        display: flex;
+        justify-content: space-around;
+        }
+        
+        .redes-sociales > img{
+        width: 1.5cm;
+        justify-content: space-around;
+        }

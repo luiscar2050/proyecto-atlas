@@ -216,9 +216,23 @@ justify-content: center;
             justify-content: center;
         }    
 
+        .contenedor-estilos {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start  ;
+              flex-direction: column;
+              gap: 100px;
+              padding: 50px 0 50px 0;
+              margin-top: 20px;
+              width: 100vw;
+              height: 70rem;
+              background: linear-gradient(165deg,white 40%, #00FEAC 0%);
+              clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          }   
+
 .contenedorPcs {    
      width: 100%;
-    height: 70%;
+    height: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -230,23 +244,24 @@ justify-content: center;
     }
 
 .contenedorCompu > h1{
-    width: 65%;
-    height: 40px;
+    width: 50%;
+    margin: 0 auto;
     font-size: 50px;
     margin-bottom: 30px;
-    text-align: end;
+    text-align:  center;
     font-family: "Montserrat", sans-serif;
 }
 
 .contenedorParrafo{
-    width: 100%;
+width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .contenedorParrafo > p{
-    width: 79%;
-    height: 91px;
+    margin: 0 auto;
+    width: 50%;
+    height: 100px;
     font-family:"Roboto", sans-serif;
     text-align:start;
     font-size: 20px;
@@ -254,15 +269,16 @@ justify-content: center;
 
 .imagenUno{
     width: 90%;
-    height: 20%;
+    height: 90%;
     display: flex;
     justify-content: center;
 }
 .contenedorBoton{
-    width: 55%;
+    width: 65%;
+    height: 60px;
     display: flex;
     justify-content: center;
-
+    align-items: flex-end;
 }
 
 .contenedorBoton > button {
@@ -340,6 +356,7 @@ justify-content: center;
     }
     
     .tituloDos > h1{
+        margin-top: 70px;
         height: 10rem;
         width: 100%;
         display: flex;
@@ -349,7 +366,7 @@ justify-content: center;
     }
     
         .carta1{
-            height: 150%;
+            height: 180%;
             width: 30%;
             display: flex;
             justify-content: center;
@@ -357,7 +374,7 @@ justify-content: center;
     
         .cartaUno{
         width: 50%;
-        height: 40rem;
+        height: 50rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -420,7 +437,7 @@ justify-content: center;
     
     .cartaDos{
     width: 80%;
-    height: 40rem;
+    height: 50rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -489,7 +506,7 @@ justify-content: center;
     
     .cartaTres{
     width: 50%;
-    height: 40rem;
+    height: 50rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -666,7 +683,7 @@ justify-content: center;
     
     #textarea-contenedor{
         width: 90%;
-        height: 9rem;
+        height: 12rem;
         background: transparent;
     border-color: #00FEAC;
     }
